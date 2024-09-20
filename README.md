@@ -6,3 +6,8 @@ Mobile Lab - Fall 2024
 **Daily Dose of Joy:** My project for this week basically gives you One happy word a day to keep any sadness away! 
 
 As this week was all about getting to know swift , I decided to experiment with the basics and fundamentals of swift! I spent a couple of hours  this week unlearning and learning new syntax to get my for loops right! This playground uses loops, arrays, random and a timer to generate and display new words and emojis every second. I been following the [14 day Swift challenge and](https://www.hackingwithswift.com/quick-start/beginners/checkpoint-2) the [Swiftful Thinking](https://www.youtube.com/playlist?list=PLwvDm4VfkdpiLvzZFJI6rVIBtdolrJBVB) youtube playlist to learn.
+
+## Week 02
+**Teddy vs Panda: The Ascii showdown?** I couldn't tell which of the two txt files was cuter so decided to do a showdown of both!
+
+I experimented with functions on swift further and tried shrinking the files
