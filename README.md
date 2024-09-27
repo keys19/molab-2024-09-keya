@@ -15,4 +15,4 @@ I experimented with functions on swift further and tried shrinking the files
 ## Week 03
 **Shape symphony**
 
-This week, I explored the use of arrays to manage colors and experimented with the ForEach function to generate a dynamic grid of shapes. Using closures and a slider, I added interactivity, creating an engaging canvas wt=ith colors shapes and margins shift with a slide. Im curious about how `id: \.self` works!
+This week, I explored the use of arrays to manage colors and experimented with the ForEach function to generate a dynamic grid of shapes. Using closures and a slider, I added interactivity, creating an engaging canvas with colors shapes and margins shift with a slide. I was curious about and tried to learn how `id: \.self` works along with Linear gradients
