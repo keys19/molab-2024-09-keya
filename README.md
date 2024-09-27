@@ -11,3 +11,7 @@ As this week was all about getting to know swift , I decided to experiment with 
 **Teddy vs Panda: The Ascii showdown?** I couldn't tell which of the two txt files was cuter so decided to do a showdown of both!
 
 I experimented with functions on swift further and tried shrinking the files
+
+## Week 03
+**Shape symphony
+This week, I explored the use of arrays to manage colors and experimented with the ForEach function to generate a dynamic grid of shapes. Using closures and a slider, I added interactivity, creating an engaging canvas wt=ith colors shapes and margins shift with a slide. Im curious about how `id: \.self` works!
