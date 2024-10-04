@@ -16,3 +16,9 @@ I experimented with functions on swift further and tried shrinking the files
 **Shape symphony**
 
 This week, I explored the use of arrays to manage colors and experimented with the ForEach function to generate a dynamic grid of shapes. Using closures and a slider, I added interactivity, creating an engaging canvas with colors shapes and margins shift with a slide. I was curious about and tried to learn how `id: \.self` works along with Linear gradients
+
+## Week 04
+**Mindful Minutes**
+
+For the audio and timer assignment, I tried to make something that is a much needed relaxing app, one where you can take a break from the world! Users can choose the duration of their experience as well as the backgrounds they like and will have a guided meditation that can be paused and played!
+I found this easy to navigate with the resources and loved exploring different file types and assets and trying to get into fixing the UI a little!
