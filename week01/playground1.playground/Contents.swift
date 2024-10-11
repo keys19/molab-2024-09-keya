@@ -19,7 +19,7 @@ struct ContentView: View {
     let positiveWords = [
         "Joy", "Love", "Peace", "Harmony", "Hope", "Bliss", "Gratitude", "Inspire", "Believe", "Shine",
         "Happiness", "Strength", "Courage", "Trust", "Kindness", "Dream", "Laugh", "Smile", "Compassion",
-        "Brilliance", "Magic", "Calm", "Balance", "Unity", "Breathe", "Positivity", "Passion", "Abundance",
+        "Brilliance", "Magic", "Calm", "Balance", "Breathe", "Positivity", "Passion", "Abundance",
         "Joyful", "Faith", "Empathy", "Radiance", "Freedom", "Adventure", "Light", "Serenity", "Empower",
         "Celebrate", "Achievement", "Success", "Optimism", "Hopeful", "Growth", "Victory", "Determination",
         "Focus", "Clarity", "Confidence", "Persistence"
@@ -38,17 +38,17 @@ struct ContentView: View {
         VStack {
             // text art above
             Text(generateLine(patterns: patterns, length: 3))
-                .font(.system(size: 40))
+                .font(.system(size: 10))
                 .padding()
             
             // display the current positive word
             Text(currentWord)
-                .font(.largeTitle)
+                .font(.title)
                 .padding()
             
             // text art below
             Text(generateLine(patterns: patterns, length: 3))
-                .font(.system(size: 40))
+                .font(.system(size: 10))
                 .padding()
         }
         .onReceive(timer) { _ in
