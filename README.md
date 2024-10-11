@@ -22,3 +22,7 @@ This week, I explored the use of arrays to manage colors and experimented with t
 
 For the audio and timer assignment, I tried to make something that is a much needed relaxing app, one where you can take a break from the world! Users can choose the duration of their experience as well as the backgrounds they like and will have a guided meditation that can be paused and played!
 I found this easy to navigate with the resources and loved exploring different file types and assets and trying to get into fixing the UI a little!
+
+## Week 05
+**Mindfulness Minutes revamped**
+This week, I improved last week's app by adding a Navigation View to the app with more options, allowing users to navigate between different sections. I also focused on exploring animations, trying out several effects like breathing circles, ripple effects, and gradient animations. While doing this, I encountered a preview error, which prevented me from fully viewing the app in the SwiftUI preview mode. As a result, I didn't concentrate much on perfecting the UI design for the app this week, instead spending more time playing around with the animations.
