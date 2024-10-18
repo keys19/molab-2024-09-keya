@@ -26,3 +26,11 @@ I found this easy to navigate with the resources and loved exploring different f
 ## Week 05
 **Mindfulness Minutes revamped**
 This week, I improved last week's app by adding a Navigation View to the app with more options, allowing users to navigate between different sections. I also focused on exploring animations, trying out several effects like breathing circles, ripple effects, and gradient animations. While doing this, I encountered a preview error, which prevented me from fully viewing the app in the SwiftUI preview mode. As a result, I didn't concentrate much on perfecting the UI design for the app this week, instead spending more time playing around with the animations.
+
+## Week 06
+**Your Mindfulness Minutes**
+This week's learning truly had me rolling up my sleeves and diving deep into Swift UI development. I faced numerous errors along the way,
+for example:
+`/Users/keyashah/Documents/ascii/week06/week06/LoginView.swift:34:47 Value of optional type 'URL?' must be unwrapped to refer to member 'path' of wrapped base type 'URL'` but was able to fix most of them and a little help from chatgpt in places where I was absolutely stuck
+Navigating through Apple's documentation became my go-to, and it helped me overcome the challenges and learn many new swift keywords that make life easier than traditional statements. By the end of this week, I've built a version that allows users to log in and save their favorite meditations! I wanted to try to implement a sign up page as for now my users are hardcoded and I will try implementing this soon. Users can heart the meditation and itll be saved even when the app is rebuilt!
+I personally enjoyed working with JSON files!
