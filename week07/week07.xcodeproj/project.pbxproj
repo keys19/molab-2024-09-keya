@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD7A0BBE2CCB36820079B590 /* week07App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A0BBD2CCB36820079B590 /* week07App.swift */; };
+		FD7A0BC02CCB36820079B590 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A0BBF2CCB36820079B590 /* ContentView.swift */; };
+		FD7A0BC22CCB36850079B590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BC12CCB36850079B590 /* Assets.xcassets */; };
+		FD7A0BC62CCB36850079B590 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BC52CCB36850079B590 /* Preview Assets.xcassets */; };
+		FD7A0BCD2CCB369A0079B590 /*  UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A0BCC2CCB369A0079B590 /*  UserModel.swift */; };
+		FD7A0BCF2CCB36B80079B590 /*  Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A0BCE2CCB36B80079B590 /*  Model.swift */; };
+		FD7A0BD12CCB37000079B590 /*  Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A0BD02CCB37000079B590 /*  Document.swift */; };
+		FD7A0BD32CCB37980079B590 /* UserData.json in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BD22CCB37980079B590 /* UserData.json */; };
+		FD7A0BD52CCB393A0079B590 /* MeditationSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A0BD42CCB393A0079B590 /* MeditationSelectionView.swift */; };
+		FD7A0BD72CCB39430079B590 /* MeditationPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A0BD62CCB39430079B590 /* MeditationPlayerView.swift */; };
+		FD7A0BD92CCB39EF0079B590 /* 10min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BD82CCB39EE0079B590 /* 10min.mp3 */; };
+		FD7A0BDB2CCB39F70079B590 /* angelic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BDA2CCB39F60079B590 /* angelic.mp3 */; };
+		FD7A0BDD2CCB39FB0079B590 /* autumnsky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BDC2CCB39FB0079B590 /* autumnsky.mp3 */; };
+		FD7A0BDF2CCB3A000079B590 /* bm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BDE2CCB3A000079B590 /* bm.mp3 */; };
+		FD7A0BE12CCB3A050079B590 /* inner-peace-zen-meditation-247327.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BE02CCB3A050079B590 /* inner-peace-zen-meditation-247327.mp3 */; };
+		FD7A0BE32CCB3A090079B590 /* sleep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BE22CCB3A090079B590 /* sleep.mp3 */; };
+		FD7A0BE52CCB3A0E0079B590 /* tibetian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BE42CCB3A0E0079B590 /* tibetian.mp3 */; };
+		FD7A0BE72CCB3A140079B590 /* 5min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BE62CCB3A140079B590 /* 5min.mp3 */; };
+		FD7A0BE92CCB3A180079B590 /* 3min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BE82CCB3A180079B590 /* 3min.mp3 */; };
+		FD7A0BEB2CCB3A1E0079B590 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BEA2CCB3A1E0079B590 /* 1.mp3 */; };
+		FD7A0BED2CCB421F0079B590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A0BEC2CCB421F0079B590 /* ViewController.swift */; };
+		FD7A0BEF2CCB42570079B590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BEE2CCB42570079B590 /* Main.storyboard */; };
+		FD7A0BF12CCB42C30079B590 /* FaceCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7A0BF02CCB42C30079B590 /* FaceCheckView.swift */; };
+		FD7A0BF32CCB44580079B590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7A0BF22CCB44580079B590 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD7A0BBA2CCB36820079B590 /* week07.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week07.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7A0BBD2CCB36820079B590 /* week07App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week07App.swift; sourceTree = "<group>"; };
+		FD7A0BBF2CCB36820079B590 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD7A0BC12CCB36850079B590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD7A0BC32CCB36850079B590 /* week07.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = week07.entitlements; sourceTree = "<group>"; };
+		FD7A0BC52CCB36850079B590 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD7A0BCC2CCB369A0079B590 /*  UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " UserModel.swift"; sourceTree = "<group>"; };
+		FD7A0BCE2CCB36B80079B590 /*  Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Model.swift"; sourceTree = "<group>"; };
+		FD7A0BD02CCB37000079B590 /*  Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Document.swift"; sourceTree = "<group>"; };
+		FD7A0BD22CCB37980079B590 /* UserData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UserData.json; sourceTree = "<group>"; };
+		FD7A0BD42CCB393A0079B590 /* MeditationSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeditationSelectionView.swift; sourceTree = "<group>"; };
+		FD7A0BD62CCB39430079B590 /* MeditationPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeditationPlayerView.swift; sourceTree = "<group>"; };
+		FD7A0BD82CCB39EE0079B590 /* 10min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10min.mp3; sourceTree = "<group>"; };
+		FD7A0BDA2CCB39F60079B590 /* angelic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = angelic.mp3; sourceTree = "<group>"; };
+		FD7A0BDC2CCB39FB0079B590 /* autumnsky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = autumnsky.mp3; sourceTree = "<group>"; };
+		FD7A0BDE2CCB3A000079B590 /* bm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bm.mp3; sourceTree = "<group>"; };
+		FD7A0BE02CCB3A050079B590 /* inner-peace-zen-meditation-247327.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "inner-peace-zen-meditation-247327.mp3"; sourceTree = "<group>"; };
+		FD7A0BE22CCB3A090079B590 /* sleep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sleep.mp3; sourceTree = "<group>"; };
+		FD7A0BE42CCB3A0E0079B590 /* tibetian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tibetian.mp3; sourceTree = "<group>"; };
+		FD7A0BE62CCB3A140079B590 /* 5min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5min.mp3; sourceTree = "<group>"; };
+		FD7A0BE82CCB3A180079B590 /* 3min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3min.mp3; sourceTree = "<group>"; };
+		FD7A0BEA2CCB3A1E0079B590 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		FD7A0BEC2CCB421F0079B590 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD7A0BEE2CCB42570079B590 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FD7A0BF02CCB42C30079B590 /* FaceCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCheckView.swift; sourceTree = "<group>"; };
+		FD7A0BF22CCB44580079B590 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7A0BB72CCB36820079B590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD7A0BB12CCB36820079B590 = {
+			isa = PBXGroup;
+			children = (
+				FD7A0BDA2CCB39F60079B590 /* angelic.mp3 */,
+				FD7A0BDC2CCB39FB0079B590 /* autumnsky.mp3 */,
+				FD7A0BD82CCB39EE0079B590 /* 10min.mp3 */,
+				FD7A0BEA2CCB3A1E0079B590 /* 1.mp3 */,
+				FD7A0BE22CCB3A090079B590 /* sleep.mp3 */,
+				FD7A0BE62CCB3A140079B590 /* 5min.mp3 */,
+				FD7A0BE82CCB3A180079B590 /* 3min.mp3 */,
+				FD7A0BE42CCB3A0E0079B590 /* tibetian.mp3 */,
+				FD7A0BDE2CCB3A000079B590 /* bm.mp3 */,
+				FD7A0BE02CCB3A050079B590 /* inner-peace-zen-meditation-247327.mp3 */,
+				FD7A0BBC2CCB36820079B590 /* week07 */,
+				FD7A0BBB2CCB36820079B590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7A0BBB2CCB36820079B590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7A0BBA2CCB36820079B590 /* week07.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7A0BBC2CCB36820079B590 /* week07 */ = {
+			isa = PBXGroup;
+			children = (
+				FD7A0BEE2CCB42570079B590 /* Main.storyboard */,
+				FD7A0BEC2CCB421F0079B590 /* ViewController.swift */,
+				FD7A0BD42CCB393A0079B590 /* MeditationSelectionView.swift */,
+				FD7A0BBD2CCB36820079B590 /* week07App.swift */,
+				FD7A0BBF2CCB36820079B590 /* ContentView.swift */,
+				FD7A0BD02CCB37000079B590 /*  Document.swift */,
+				FD7A0BD22CCB37980079B590 /* UserData.json */,
+				FD7A0BCC2CCB369A0079B590 /*  UserModel.swift */,
+				FD7A0BD62CCB39430079B590 /* MeditationPlayerView.swift */,
+				FD7A0BCE2CCB36B80079B590 /*  Model.swift */,
+				FD7A0BF22CCB44580079B590 /* LaunchScreen.storyboard */,
+				FD7A0BF02CCB42C30079B590 /* FaceCheckView.swift */,
+				FD7A0BC12CCB36850079B590 /* Assets.xcassets */,
+				FD7A0BC32CCB36850079B590 /* week07.entitlements */,
+				FD7A0BC42CCB36850079B590 /* Preview Content */,
+			);
+			path = week07;
+			sourceTree = "<group>";
+		};
+		FD7A0BC42CCB36850079B590 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD7A0BC52CCB36850079B590 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7A0BB92CCB36820079B590 /* week07 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7A0BC92CCB36850079B590 /* Build configuration list for PBXNativeTarget "week07" */;
+			buildPhases = (
+				FD7A0BB62CCB36820079B590 /* Sources */,
+				FD7A0BB72CCB36820079B590 /* Frameworks */,
+				FD7A0BB82CCB36820079B590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = week07;
+			productName = week07;
+			productReference = FD7A0BBA2CCB36820079B590 /* week07.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD7A0BB22CCB36820079B590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FD7A0BB92CCB36820079B590 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = FD7A0BB52CCB36820079B590 /* Build configuration list for PBXProject "week07" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD7A0BB12CCB36820079B590;
+			productRefGroup = FD7A0BBB2CCB36820079B590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7A0BB92CCB36820079B590 /* week07 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7A0BB82CCB36820079B590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7A0BD92CCB39EF0079B590 /* 10min.mp3 in Resources */,
+				FD7A0BE32CCB3A090079B590 /* sleep.mp3 in Resources */,
+				FD7A0BD32CCB37980079B590 /* UserData.json in Resources */,
+				FD7A0BF32CCB44580079B590 /* LaunchScreen.storyboard in Resources */,
+				FD7A0BE72CCB3A140079B590 /* 5min.mp3 in Resources */,
+				FD7A0BDD2CCB39FB0079B590 /* autumnsky.mp3 in Resources */,
+				FD7A0BE52CCB3A0E0079B590 /* tibetian.mp3 in Resources */,
+				FD7A0BC62CCB36850079B590 /* Preview Assets.xcassets in Resources */,
+				FD7A0BEF2CCB42570079B590 /* Main.storyboard in Resources */,
+				FD7A0BDF2CCB3A000079B590 /* bm.mp3 in Resources */,
+				FD7A0BEB2CCB3A1E0079B590 /* 1.mp3 in Resources */,
+				FD7A0BE12CCB3A050079B590 /* inner-peace-zen-meditation-247327.mp3 in Resources */,
+				FD7A0BE92CCB3A180079B590 /* 3min.mp3 in Resources */,
+				FD7A0BC22CCB36850079B590 /* Assets.xcassets in Resources */,
+				FD7A0BDB2CCB39F70079B590 /* angelic.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7A0BB62CCB36820079B590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7A0BCF2CCB36B80079B590 /*  Model.swift in Sources */,
+				FD7A0BC02CCB36820079B590 /* ContentView.swift in Sources */,
+				FD7A0BF12CCB42C30079B590 /* FaceCheckView.swift in Sources */,
+				FD7A0BD72CCB39430079B590 /* MeditationPlayerView.swift in Sources */,
+				FD7A0BD12CCB37000079B590 /*  Document.swift in Sources */,
+				FD7A0BD52CCB393A0079B590 /* MeditationSelectionView.swift in Sources */,
+				FD7A0BCD2CCB369A0079B590 /*  UserModel.swift in Sources */,
+				FD7A0BED2CCB421F0079B590 /* ViewController.swift in Sources */,
+				FD7A0BBE2CCB36820079B590 /* week07App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD7A0BC72CCB36850079B590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD7A0BC82CCB36850079B590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FD7A0BCA2CCB36850079B590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = week07/week07.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"week07/Preview Content\"";
+				DEVELOPMENT_TEAM = 7862N625ZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app uses the camera to track your face for meditation readiness analysis.\n";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = key.week07;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD7A0BCB2CCB36850079B590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = week07/week07.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"week07/Preview Content\"";
+				DEVELOPMENT_TEAM = 7862N625ZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app uses the camera to track your face for meditation readiness analysis.\n";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = key.week07;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD7A0BB52CCB36820079B590 /* Build configuration list for PBXProject "week07" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7A0BC72CCB36850079B590 /* Debug */,
+				FD7A0BC82CCB36850079B590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7A0BC92CCB36850079B590 /* Build configuration list for PBXNativeTarget "week07" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7A0BCA2CCB36850079B590 /* Debug */,
+				FD7A0BCB2CCB36850079B590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD7A0BB22CCB36820079B590 /* Project object */;
+}
