@@ -43,3 +43,13 @@ I personally enjoyed working with JSON files!
 Well, this process of learning to make an app is definitely teaching me patience and calmness and what's new with Mindfulness Minutes this week is that:
 1. Last week's bug are fixed, I implemented the JSON storage using the example code from class and it works now!
 2. I tried to implement the Face Mesh as a feature to tell the user if they are calm enough to meditate. Still raw in implementation and needs alot of edge cases to be tackled but I'm satisfied with the direction and will continue to improve it!
+
+## Week 08  
+**Is your creativity ready to have some fun?**  
+This week, **Fun with Filters** introduces new features:
+1. A Retro mode filter with smooth vignette.
+2. A Sci-Fi mode with neon glow and glitch effects that pulsate, creating a futuristic vibe.  
+3. A pop art mode!!
+Excited to keep pushing creativity with more unique filters and effects!
+
+While I tried filters, i also explored the storyboard for the launch page, which didnt work so thats on my to-do list for the next hw!
