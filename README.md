@@ -83,3 +83,33 @@ Features:
         - **Firebase Firestore**: To store schedule preferences and manage reminders.
     
     Along with these features, I want to focus on the UI of the app to make it homely and reflect the warmth. I get overly ambitious while thinking about ideas and so have I here but promising myself to allow flexibility and room for any of these features to take a better shape along the way.
+
+  
+## Week 11
+Following discussions with professor, I have decided to narrow down the app’s features to focus on the **interactive** **journaling feature** as the primary functionality for now. So far I haven't run into any major issues.
+
+**Progress Updates**
+
+1. **Wireframing Complete & Coding Begun**
+
+- I have completed wireframing the app’s basic layout and features.
+
+- Development has officially started, and the app is taking shape.
+
+2. **Firebase Setup and Testing**
+- Firebase has been successfully connected and tested for storing journal entries and user preferences.
+
+- Final Firebase implementation will be completed after other components are functional.
+
+3. **Interactive Journaling Progress**
+
+- The **text-based question layout** for journaling is functional, with a basic set of prompts implemented.
+
+- Next steps: Expanding the list of prompts to include more introspective and engaging questions.
+
+4. **Mood-Based Mandala Feature**
+- Implemented and tested:
+- **Mood Picker:** Allows users to select their current mood.
+- **Mood-Based Color Palette Generator:** Generates a calming palette based on the selected mood.
+- **Simple Circular Mandala Filling:** Users can color in a circular mandala with the generated palette.
+- Current task: Finding suitable SVG mandala designs online and making them fillable.
